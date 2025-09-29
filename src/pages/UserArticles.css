@@ -1,0 +1,50 @@
+.user-articles-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.user-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.user-header h1 {
+    font-size: 32px;
+    color: #212529;
+    margin-bottom: 8px;
+}
+
+.user-header p {
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.user-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #495057;
+    font-size: 14px;
+}
+
+.user-stats span {
+    font-weight: 500;
+}
